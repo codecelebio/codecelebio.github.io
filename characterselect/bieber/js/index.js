@@ -396,7 +396,7 @@ function game() {
             ctx.font = "20px Verdana";
             ctx.fillStyle = "white";
             ctx.textAlign = "center";
-            ctx.fillText("Total destroyed: "+ destroyed, cW/2,cH/2 + 140);
+            ctx.fillText("Fans and Paparazzi Killed: "+ destroyed, cW/2,cH/2 + 140);
 
             record = destroyed > record ? destroyed : record;
 
