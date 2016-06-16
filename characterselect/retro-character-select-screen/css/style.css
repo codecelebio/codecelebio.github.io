@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=VT323);
+
+body{
+  font-family: 'VT323';
+  text-align:center;
+  background:#111 url(http://subtlepatterns.com/patterns/dirty_old_shirt.png)
+}
+footer{
+  clear:both;
+  color:#aaa;
+  padding:30px
+}
+audio{display:none}
+h1{
+  color:#fff;
+  font-size:46px;
+  text-shadow:2px 2px 0 #08c;
+  font-weight:normal
+}
+ul{
+  max-width:800px;
+  margin:0 auto;
+  padding:0;
+  list-style:none;
+}
+ul li{
+  display:block;
+  background:url(http://i60.tinypic.com/2h34h7l.jpg) top center no-repeat;
+  width:200px;
+  height:340px;
+  padding:0;
+  cursor:pointer;
+  float:left;
+  position:relative
+}
+ul li::before{
+ 
+  content:" ";
+  display:block;
+  width:92px;
+  height:92px;
+  position:absolute;
+  left:80px;
+  top:-50px
+}
+.t2{
+  background-image:url(http://i59.tinypic.com/4ifmlu.jpg)
+}
+.t3{
+  background-image:url(http://i58.tinypic.com/20h62k5.jpg)
+}
+.t4{
+  background-image:url(http://i59.tinypic.com/24dpxjr.jpg)
+}
+
+.t1:hover, .t1.active{
+  background-image:url(http://i58.tinypic.com/9kt27q.jpg)
+}
+.t1:hover::before, .t1.active::before{
+   background: url(http://i62.tinypic.com/mmbh1x.jpg) 0 0 no-repeat;
+}
+.t2:hover, .t2.active{
+  background-image:url(https://gm1.ggpht.com/DjpdjekoI64iapyX7eYQuIkZHG7hI3In4c1HRjcvqGt2UtJM2TezlSUzodiwOgestRhrYR5nDvby0ZjHPBwuXTvWeDnfvbNLF6T59Tysh3Ww8P841VE3dUtf1lZz1BBdZtuQxA6xI7Vp3LmVNH0Hte2LIvQumTV7w3HiydKpBNImqo58svL8fjO1M5K6XdgL5YPhtt9KVAkASaHt8MI7KKOYYB_FRrFj-w4WgyLZFyxtsYy8U8Iw82h5HgBZS4OZ17T-y_4QrClzD7BzzmG4-HI7ZsSxaEeQ8O1XLZ4OlL7nKCk8jIFv4-cGKVMbIjI7MN_7P1mNrGRfqRpJK5im_oe0M3bFCXnEBuZHAOVTOrg8FitNTYgvNpLRs3RTgkcbAF-jQtyaXxjDALvbQ8SkGIjFOz0oC6loze7wcxejG_QtAc5-_s8w4DtgHiLHPpiBK2rbHFlhnlUJWsB4I-dxVAmgjJ0rSXdC5S2loX9KsUOTpyuFPng573LlmSSmi-SqHQgI_h7A8Ec7pQVxZQD2xyThDtlckBIH0HZrNU4rbdCABotYQIBw6j6CDh9Fvn_F8T82XWGbhUV7tM0d07AuISlOYhvSJvdfjwkVHj2WZmxrC5F58KDLOzYhQYaoqrvyiUUA9v5I0hROMjVJCmlnMSD3_-byIGb_hNltr1zfCUzViIkZS5YbZ270IrRo0hY=w908-h548-l75-ft)
+}
+.t2:hover::before, .t2.active::before{
+   background: url(http://i62.tinypic.com/mmbh1x.jpg) -100px 0px no-repeat;
+}
+.t3:hover, .t3.active{
+  background-image:url(http://i60.tinypic.com/jjy15x.jpg)
+}
+.t3:hover::before, .t3.active::before{
+   background: url(http://i62.tinypic.com/mmbh1x.jpg) -200px 0px no-repeat;
+}
+.t4:hover, .t4.active{
+  background-image:url(http://i59.tinypic.com/29dweah.jpg)
+}
+.t4:hover::before, .t4.active::before{
+   background: url(http://i62.tinypic.com/mmbh1x.jpg) -300px 0px no-repeat;
+}
+
+
+.blink{ opacity:0.1 }
